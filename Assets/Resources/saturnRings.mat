@@ -12,6 +12,8 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - _SGT_LIGHTING
+  - _SGT_NEAR
   - _SGT_SPHEREMASK_OFF
   m_InvalidKeywords:
   - _SGT_DETAIL_OFF
@@ -100,8 +102,8 @@ Material:
     - _SGT_DetailTwist: 0
     - _SGT_DetailTwistBias: 0
     - _SGT_LightCount: 0
-    - _SGT_Lighting: 0
-    - _SGT_Near: 0
+    - _SGT_Lighting: 1
+    - _SGT_Near: 1
     - _SGT_NearRangeRecip: 1
     - _SGT_RingShadowCount: 0
     - _SGT_Scattering: 0
