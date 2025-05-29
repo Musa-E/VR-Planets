@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Jovian + Lighting + Scattering + Flow
+  m_Name: Saturn - Jovian + Lighting + Scattering + Flow
   m_Shader: {fileID: 4800000, guid: 0879295d2b233f243838d4fe720c1337, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -120,7 +120,7 @@ Material:
     - _SGT_SphereMaskFalloff: 3
     - _SGT_SphereMaskRadius: 1
     - _SGT_SphereShadowCount: 0
-    - _SGT_ZWrite: 0
+    - _SGT_ZWrite: 1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1

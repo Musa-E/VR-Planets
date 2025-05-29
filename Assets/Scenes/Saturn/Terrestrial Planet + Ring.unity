@@ -630,7 +630,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aacb11b170425fe4cbc5edf718b80ea5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sourceMaterial: {fileID: 2100000, guid: 2513e6003078bd74e9d635d5ee845a7d, type: 2}
+  sourceMaterial: {fileID: 2100000, guid: 7453d920d488ed3408afc4a1b7f31db9, type: 2}
   color: {r: 1, g: 1, b: 1, a: 0.05882353}
   brightness: 1
   mainTex: {fileID: 8900000, guid: 5d5c5a6544d63db4f8c9505c985cfc8f, type: 3}
@@ -896,7 +896,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b85c1f42538e90049b23d0bec8830d4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sourceMaterial: {fileID: 2100000, guid: 1d9004e26641888448d5f4f15b9d0c55, type: 2}
+  sourceMaterial: {fileID: 2100000, guid: 00e42ce830cf26141990dff03697a9fe, type: 2}
   color: {r: 1, g: 1, b: 1, a: 1}
   brightness: 1
   innerMeshRadius: 1000
@@ -1804,7 +1804,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1.02e-43, y: 1.4e-44, z: 2.2816e-41, w: 1.0949279e+27}
+  m_BoundingSphereOverride: {x: 1.02e-43, y: 1.795e-42, z: 1.9027e-41, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -2228,6 +2228,8 @@ GameObject:
   - component: {fileID: 1496606422045617823}
   - component: {fileID: 717920009078275072}
   - component: {fileID: 612544800}
+  - component: {fileID: 5202210527194431208}
+  - component: {fileID: 5202210527194431207}
   m_Layer: 0
   m_Name: SaturnPlanet
   m_TagString: Untagged
@@ -2247,14 +2249,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fabe3b733557b474082f4aa8fe29b128, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sourceMaterial: {fileID: 2100000, guid: 702d05949a503d846bca6f170af9c8c1, type: 2}
+  sourceMaterial: {fileID: 2100000, guid: 09fc82714f5ecd748abfee2142dcef41, type: 2}
   color: {r: 1, g: 1, b: 1, a: 1}
   brightness: 1
   mainTex: {fileID: 2800000, guid: 58ca02bd4e5035c4dae71186eb9d4ac9, type: 3}
   radiusInner: 1135.99
   radiusOuter: 4843
   split: 1
-  sortDistance: 522
+  sortDistance: 1200
   foregroundModel: {fileID: 4466820854109147847}
   backgroundModel: {fileID: 6757942282070959697}
 --- !u!114 &2037692207737019399
@@ -2520,9 +2522,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ab8d0037e014284ca8099008b3aab72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sourceMaterial: {fileID: 2100000, guid: 0431a35714c0f4e4aa796f2558a42474, type: 2}
+  sourceMaterial: {fileID: 2100000, guid: bcf54ea7ea69d4241896754a73862d96, type: 2}
   color: {r: 1, g: 1, b: 1, a: 1}
-  brightness: 0.1
+  brightness: 1
   mainTex: {fileID: 8900000, guid: c486153a04549de44a1b3311959e2f7a, type: 3}
   flowTex: {fileID: 8900000, guid: 0383da5ea578c9f4998a6c9f3321389c, type: 3}
   cameraOffset: 0
@@ -2533,6 +2535,42 @@ MonoBehaviour:
   radius: 1000
   distanceRadius: 1000
   model: {fileID: 4863676844565849667}
+--- !u!114 &5202210527194431207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1745748717951796037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9b9fb6619750c644b47e1095eb44d59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sunsetEase: 1
+  sunsetStart: 0.4
+  sunsetEnd: 0.6
+  sunsetSharpnessR: 1
+  sunsetSharpnessG: 1
+  sunsetSharpnessB: 1
+--- !u!114 &5202210527194431208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1745748717951796037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c61be0003d0c2fa45a7a0109e413e255, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sunsetEase: 1
+  sunsetStart: 0.4
+  sunsetEnd: 0.6
+  sunsetSharpnessR: 1
+  sunsetSharpnessG: 1
+  sunsetSharpnessB: 1
 --- !u!114 &5468106664659660169
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2545,14 +2583,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fabe3b733557b474082f4aa8fe29b128, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sourceMaterial: {fileID: 2100000, guid: 0e3363359387ac7488b04abec06e8194, type: 2}
+  sourceMaterial: {fileID: 2100000, guid: 2a5a78d303b9ab446a60f4c9adfbbf79, type: 2}
   color: {r: 1, g: 1, b: 1, a: 1}
   brightness: 1
   mainTex: {fileID: 2800000, guid: 94b9c3abee525a240a2cee901723ac08, type: 3}
   radiusInner: 1135.99
   radiusOuter: 4843
   split: 1
-  sortDistance: 522
+  sortDistance: 1200
   foregroundModel: {fileID: 6863219034906708670}
   backgroundModel: {fileID: 299731814216419242}
 --- !u!1 &5487469612822094553
@@ -3741,7 +3779,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0.56444794, y: -0.4259091, z: -0.56444794, w: 0.4259091}
   m_LocalPosition: {x: 0.0011, y: 0.008, z: 0}
-  m_LocalScale: {x: 4.545031, y: 0.90900624, z: 0.90900624}
+  m_LocalScale: {x: 4.7132063, y: 0.94264126, z: 0.94264126}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8939579532818721970}
