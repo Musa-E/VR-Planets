@@ -1804,7 +1804,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1.02e-43, y: 1.4e-44, z: 2.2816e-41, w: 1.0949279e+27}
+  m_BoundingSphereOverride: {x: 1.02e-43, y: 1.795e-42, z: 1.9027e-41, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -2228,6 +2228,8 @@ GameObject:
   - component: {fileID: 1496606422045617823}
   - component: {fileID: 717920009078275072}
   - component: {fileID: 612544800}
+  - component: {fileID: 5202210527194431208}
+  - component: {fileID: 5202210527194431209}
   m_Layer: 0
   m_Name: SaturnPlanet
   m_TagString: Untagged
@@ -2254,7 +2256,7 @@ MonoBehaviour:
   radiusInner: 1135.99
   radiusOuter: 4843
   split: 1
-  sortDistance: 522
+  sortDistance: 576.4
   foregroundModel: {fileID: 4466820854109147847}
   backgroundModel: {fileID: 6757942282070959697}
 --- !u!114 &2037692207737019399
@@ -2520,9 +2522,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ab8d0037e014284ca8099008b3aab72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sourceMaterial: {fileID: 2100000, guid: 0431a35714c0f4e4aa796f2558a42474, type: 2}
+  sourceMaterial: {fileID: 2100000, guid: 2d4369648019347469f64a3aa7abcb16, type: 2}
   color: {r: 1, g: 1, b: 1, a: 1}
-  brightness: 0.1
+  brightness: 1
   mainTex: {fileID: 8900000, guid: c486153a04549de44a1b3311959e2f7a, type: 3}
   flowTex: {fileID: 8900000, guid: 0383da5ea578c9f4998a6c9f3321389c, type: 3}
   cameraOffset: 0
@@ -2533,6 +2535,42 @@ MonoBehaviour:
   radius: 1000
   distanceRadius: 1000
   model: {fileID: 4863676844565849667}
+--- !u!114 &5202210527194431208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1745748717951796037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c61be0003d0c2fa45a7a0109e413e255, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sunsetEase: 1
+  sunsetStart: 0.4
+  sunsetEnd: 0.6
+  sunsetSharpnessR: 1
+  sunsetSharpnessG: 1
+  sunsetSharpnessB: 1
+--- !u!114 &5202210527194431209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1745748717951796037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9b9fb6619750c644b47e1095eb44d59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sunsetEase: 1
+  sunsetStart: 0.4
+  sunsetEnd: 0.6
+  sunsetSharpnessR: 1
+  sunsetSharpnessG: 1
+  sunsetSharpnessB: 1
 --- !u!114 &5468106664659660169
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2552,7 +2590,7 @@ MonoBehaviour:
   radiusInner: 1135.99
   radiusOuter: 4843
   split: 1
-  sortDistance: 522
+  sortDistance: 576.4
   foregroundModel: {fileID: 6863219034906708670}
   backgroundModel: {fileID: 299731814216419242}
 --- !u!1 &5487469612822094553
@@ -3741,7 +3779,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0.56444794, y: -0.4259091, z: -0.56444794, w: 0.4259091}
   m_LocalPosition: {x: 0.0011, y: 0.008, z: 0}
-  m_LocalScale: {x: 4.545031, y: 0.90900624, z: 0.90900624}
+  m_LocalScale: {x: 4.6811705, y: 0.9362341, z: 0.9362341}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8939579532818721970}
