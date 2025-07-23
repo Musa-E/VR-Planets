@@ -1,0 +1,189 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: moonMat
+  m_Shader: {fileID: 4800000, guid: 768a73c8cfe57ab46943868314e13a32, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _BAKEDDETAIL_ON
+  - _BAKEDDETAIL_ON_DEF_1
+  - _BAKEDDETAIL_ON_DEF_2
+  - _FACETED_ON
+  - _SGT_SPHEREMASK_OFF
+  - _SHORE_DETAIL_A
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlbedoMapA:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AlbedoMapB:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AlbedoMapG:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AlbedoMapR:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMaskMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HeightMap:
+        m_Texture: {fileID: 2800000, guid: 4f87a86d7f7e44a4fb7c266e507df58e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 5c153d75825748240926b99d6e12b809, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NightTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: dbd9de8d81aaa9548a0700e01ce931f9, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMapA:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMapB:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMapG:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMapR:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShoreAlbedo:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShoreMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlbedoShift: 0
+    - _BakedDetailFadeBound: 1000
+    - _BakedDetailFadeBound_Ext_1: 1000
+    - _BakedDetailFadeBound_Ext_2: 1000
+    - _BakedDetailFadeRange: 1000
+    - _BakedDetailFadeRange_Ext_1: 1000
+    - _BakedDetailFadeRange_Ext_2: 1000
+    - _BakedDetailScaleA: 1
+    - _BakedDetailScaleA_Ext_1: 1
+    - _BakedDetailScaleA_Ext_2: 1
+    - _BakedDetailScaleB: 1
+    - _BakedDetailScaleB_Ext_1: 1
+    - _BakedDetailScaleB_Ext_2: 1
+    - _BakedDetailScaleG: 1
+    - _BakedDetailScaleG_Ext_1: 1
+    - _BakedDetailScaleG_Ext_2: 1
+    - _BakedDetailScaleR: 1
+    - _BakedDetailScaleR_Ext_1: 1
+    - _BakedDetailScaleR_Ext_2: 1
+    - _BumpScale: 1
+    - _CW_DisableFog: 0
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _FlatShadingBlend: 0.9
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _HasBakedDetail: 1
+    - _HasBakedDetail_Ext_1: 1
+    - _HasBakedDetail_Ext_2: 1
+    - _HasDetailA: 0
+    - _HasDetailAlbedo: 0
+    - _HasDetailB: 0
+    - _HasDetailG: 0
+    - _HasDetailNormal: 0
+    - _HasDetailR: 0
+    - _HasFaceted: 1
+    - _HasNight: 0
+    - _HasShore: 0
+    - _Metallic: 0
+    - _Mode: 0
+    - _NightBrightness: 1
+    - _NightOffset: 0
+    - _NightSharpness: 1
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SGT_SphereMask: 0
+    - _SGT_SphereMaskFalloff: 3
+    - _SGT_SphereMaskRadius: 1
+    - _ShoreNoiseTiling: 100
+    - _ShoreRange: 10
+    - _Shore_Detail: 0
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _NightDirection: {r: 0, g: 0, b: 1, a: 1}
+    - _SGT_SphereMaskPosition: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []
