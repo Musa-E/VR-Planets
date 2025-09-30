@@ -12,10 +12,6 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _BAKEDDETAIL_ON
-  - _BAKEDDETAIL_ON_DEF_1
-  - _BAKEDDETAIL_ON_DEF_2
-  - _FACETED_ON
   - _SGT_SPHEREMASK_OFF
   - _SHORE_DETAIL_A
   m_InvalidKeywords: []
@@ -86,7 +82,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NoiseTex:
-        m_Texture: {fileID: 2800000, guid: dbd9de8d81aaa9548a0700e01ce931f9, type: 2}
+        m_Texture: {fileID: 2800000, guid: 5c153d75825748240926b99d6e12b809, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMapA:
@@ -151,16 +147,16 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _HasBakedDetail: 1
-    - _HasBakedDetail_Ext_1: 1
-    - _HasBakedDetail_Ext_2: 1
+    - _HasBakedDetail: 0
+    - _HasBakedDetail_Ext_1: 0
+    - _HasBakedDetail_Ext_2: 0
     - _HasDetailA: 0
     - _HasDetailAlbedo: 0
     - _HasDetailB: 0
     - _HasDetailG: 0
     - _HasDetailNormal: 0
     - _HasDetailR: 0
-    - _HasFaceted: 1
+    - _HasFaceted: 0
     - _HasNight: 0
     - _HasShore: 0
     - _Metallic: 0

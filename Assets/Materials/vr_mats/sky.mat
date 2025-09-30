@@ -7,14 +7,14 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Starfield Infinite
-  m_Shader: {fileID: 4800000, guid: 5fe21cba1562d42429dfd5d1ef53990b, type: 3}
+  m_Name: sky
+  m_Shader: {fileID: 106, guid: 0000000000000000f000000000000000, type: 0}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _SGT_ALIGN_VIEW
-  - _SGT_SPHEREMASK_OFF
-  m_InvalidKeywords: []
+  - _SUNDISK_NONE
+  m_InvalidKeywords:
+  - _MAPPING_LATITUDE_LONGITUDE_LAYOUT
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -25,6 +25,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _BackTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BumpMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -41,11 +45,19 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _DownTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _EmissionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _FarTex:
+    - _FrontTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LeftTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -57,10 +69,6 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _NearTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -69,75 +77,50 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _SGT_FarTex:
+    - _RightTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _SGT_MainTex:
+    - _Tex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _SGT_NearTex:
+    - _UpTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _AtmosphereThickness: 0.19
     - _BumpScale: 1
-    - _CW_DisableFog: 0
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _FarRadius: 0
-    - _FarScale: 0
+    - _Exposure: 1.86
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
+    - _ImageType: 0
+    - _Layout: 0
+    - _Mapping: 1
     - _Metallic: 0
+    - _MirrorOnBack: 0
     - _Mode: 0
-    - _NearScale: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _PulseOffset: 1
-    - _SGT_Align: 0
-    - _SGT_Brightness: 1
-    - _SGT_CameraRollAngle: 0
-    - _SGT_ClampSize: 0
-    - _SGT_ClampSizeMin: 0
-    - _SGT_ClampSizeScale: 0
-    - _SGT_DstBlend: 1
-    - _SGT_FarFade: 0
-    - _SGT_FarRadius: 100
-    - _SGT_FarRangeRecip: 1
-    - _SGT_Near: 0
-    - _SGT_NearFade: 0
-    - _SGT_NearRangeRecip: 1
-    - _SGT_NearScale: 0
-    - _SGT_PowerRgb: 0
-    - _SGT_Pulse: 0
-    - _SGT_PulseMax: 1
-    - _SGT_PulseMin: 0.5
-    - _SGT_PulseOffset: 1
-    - _SGT_PulseSpeed: 100
-    - _SGT_Scale: 1
-    - _SGT_ScaleRecip: 1
-    - _SGT_SoftParticlesFactor: 0
-    - _SGT_SphereMask: 0
-    - _SGT_SphereMaskFalloff: 3
-    - _SGT_SphereMaskRadius: 1
+    - _Rotation: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
+    - _SunDisk: 0
+    - _SunSize: 0.04
+    - _SunSizeConvergence: 5
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _SGT_Brightness: {r: 1, g: 1, b: 1, a: 1}
-    - _SGT_Color: {r: 1, g: 1, b: 1, a: 1}
-    - _SGT_SphereMaskPosition: {r: 0, g: 0, b: 0, a: 1}
-    - _SGT_StretchDirection: {r: 0, g: 0, b: 0, a: 1}
-    - _SGT_StretchVector: {r: 0, g: 0, b: 0, a: 1}
-    - _SGT_WrapScale: {r: 0, g: 0, b: 0, a: 1}
-    - _SGT_WrapSize: {r: 0, g: 0, b: 0, a: 1}
+    - _GroundColor: {r: 0, g: 0.014997516, b: 0.18490559, a: 1}
+    - _SkyTint: {r: 0, g: 0.17122245, b: 1, a: 1}
+    - _Tint: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
   m_BuildTextureStacks: []
